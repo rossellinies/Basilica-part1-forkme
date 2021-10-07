@@ -39,11 +39,11 @@ h2 {
 a {
   color: var(--orange);
   text-decoration: none;
-  transition: color 0.5s linear;
+  transition: color 0.25s linear;
 }
 
 a:hover {
-  color: var(--red);
+  color: var(--basil-green);
 }
 
 li > h4 {

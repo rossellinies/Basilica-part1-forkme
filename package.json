@@ -1,0 +1,17 @@
+{
+  "name": "basilica-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --directory --server 'app' --files 'app'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.5",
+    "concurrently": "^6.3.0",
+    "prettier": "^2.4.1",
+    "sass": "^1.42.1"
+  }
+}
