@@ -7,6 +7,10 @@ nav {
   justify-content: space-between;
   flex-wrap: wrap;
 
+@media(min-width:$break-two){
+  grid-area: nav;
+}
+
   ul {
     display: flex;
   }
@@ -23,8 +27,11 @@ nav {
     color: #fff;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     border-radius: 6px;
-    min-width: 120px;
     display: inline-block;
+
+    @media(min-width: $break-two) {
+      min-width: 120px;
+    }
   }
 
   .nav-storeit a {
